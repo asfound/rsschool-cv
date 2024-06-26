@@ -1,12 +1,12 @@
 
 ### Personal information
 
-Ksenia Gorina
-*Junior front-end enjoyer*
-JS/FE Pre-School 2024Q2 student
+Ksenia Gorina  
+*Junior front-end enjoyer*  
+JS/FE Pre-School 2024Q2 student  
 
-telegram: @found
-tel: +49 000 12345678
+telegram: @found  
+tel: +49 000 12345678  
 email: myemail00@gmail.com
 
 ### About
