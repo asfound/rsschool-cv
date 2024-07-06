@@ -45,9 +45,13 @@ body {
     margin: 35px 0px;
 }
 
-/* .div-section {
-    margin: 0px 0px;
-} */
+.div-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin: 0px;
+}
 
 .section-profile {
     display: flex;
@@ -76,10 +80,6 @@ body {
 .decoration-line {
     border-bottom: 7px solid black;
     padding: 25px 200px 0px 0px;
-}
-
-.section-merge {
-    margin: 0px;
 }
 
 .h-title {
@@ -167,8 +167,7 @@ body {
 } */
 
 .code {
-    margin: 0px;
-    padding: 0px;
+    white-space: normal;
 }
 
 .span-years {
