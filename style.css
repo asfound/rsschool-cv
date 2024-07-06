@@ -99,28 +99,48 @@ body {
     list-style: none;
 }
 
-.section-item a {
-    color: black;
-    text-decoration: none;
-    transition: color 0.5s;
-  }
-
-.section-item a:hover {
-    color: #ffea00;
-  }
-
-.section-item {
-    list-style: none;
-}
-
 .section-title {
     font-size: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+
+    border-top: 7px solid black;
+    padding: 20px 0px 20px 20px; 
 }
 
 .rss-logo {
     width: 121px; 
     height: 45px;
 }
+
+.section-item a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.5s;
+  }
+
+.footer-container a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.section-item a:hover {
+    color: #ffea00;
+  }
+
+.footer-container a:hover {
+    color: #ffea00;
+}
+
+.section-item {
+    list-style: none;
+}
+
 
 @media (max-width: 768px) {
     .section {
