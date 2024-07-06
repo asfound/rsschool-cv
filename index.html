@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>CV</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="section section-nav">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#education" class="nav-link">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#skills" class="nav-link">Skills and competences</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#code-sample" class="nav-link">Code sample</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#projects" class="nav-link">Projects</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <section class="section section-profile">
+                <div class="section-profile-title">
+                    <h1 class="h-title">Ksenia<br>Gorina</h1>
+                    <h4 class="h-title-small">Junior front-end enjoyer</h4>
+                </div>
+                <img src="assets/img/avatar.jpg" alt="my photo" class="section-profile-photo" width="200" height="200"/>
+            </section>
+        </div>
+        <div class="container"></div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section section-about" id="about">
+                <h2 class="section-title">I used to be an architect until I picked up Python for work; 
+                    then things got a little out of hand.</h2>
+                <ul class="section-list">
+                    <li class="section-item">telegram: <a href="https://t.me/found">@found</a></li>
+                    <li class="section-item">tel: <a href="tel:+4900012345678">+49 000 12345678</a></li>
+                    <li class="section-item">email: <a href="https://mail.google.com/">myemail00@gmail.com</a></li>
+                </ul>
+                <div class="decoration-line"></div>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <p><span class="span-years">2012-2017</span><br>
+                    Bachelor of Architecture<br>
+                    Samara State University of Architecture and Civil Engineering</p>
+                <p><span class="span-years">2017-2019</span><br>
+                    Master of Architecture<br>
+                    Samara State Technical University</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills and competences</h2>
+                <p>Tech:</p>
+                    <ul class="section-list">
+                        <li class="section-item">Python + Pandas</li>
+                        <li class="section-item">HTML</li>
+                        <li class="section-item">CSS</li>
+                    </ul>
+                <p>Languages:</p>
+                    <ul class="section-list">
+                        <li class="section-item">Russian / native</li>
+                        <li class="section-item">English / fluent</li>
+                        <li class="section-item">German / TELC Beruf C1</li>
+                    </ul>
+            </section>
+            <div class="section div-section">
+                <section class="section" id="code-sample">
+                    <h2 class="section-title">Code-sample</h2>
+                        <pre class="code">
+                            <code class="code">
+                            def is_even(num: int) -> bool:
+                            &nbsp;&nbsp;&nbsp;&nbsp;return num % 2 == 0
+                            </code>
+                        </pre>
+                </section>
+                <section class="section" id="projects">
+                    <h2 class="section-title">Projects</h2>
+                    <ul class="section-list">
+                        <li class="section-item">
+                            <a href="https://asfound.github.io/rsschool-cv/cv">RSS CV Markdown</a>
+                        </li>
+                        <li class="section-item">
+                            <a href="https://asfound.github.io/rsschool-cv/">RSS CV HTML&CSS</a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <a href="https://rs.school/courses/javascript-ru">
+                <img src="assets/svg/rs-school-logo.svg" alt="RSS Logo" class="rss-logo">
+            </a>
+            <p>2024, <a href="https://github.com/asfound">GitHub: asfound </a></p>
+        </div>
+    </footer>
+
+
+</body>
+</html>
