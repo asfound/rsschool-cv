@@ -130,7 +130,7 @@ body {
 }
 
 .education {
-    padding-left: 48px;
+    padding-left: 55px;
 }
 
 .span-years {
@@ -141,7 +141,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-left: 48px;
+  padding-left: 55px;
   margin: 0px;
 }
 
