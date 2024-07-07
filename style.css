@@ -95,8 +95,7 @@ body {
   margin: 35px 0px;
 }
 
-.section-item,
-a {
+.section-item, a {
   color: black;
   text-decoration: none;
   transition: color 0.5s;
@@ -122,12 +121,16 @@ a {
 } */
 
 .section-about {
-  padding: 0px 200px 0px 0px;
+  padding: 0px 150px 0px 0px;
 }
 
 .decoration-line {
   border-bottom: 7px solid black;
   padding: 25px 200px 0px 0px;
+}
+
+.education {
+    padding-left: 48px;
 }
 
 .span-years {
@@ -138,8 +141,12 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
+  padding-left: 48px;
   margin: 0px;
+}
+
+.code-sample, .projects {
+    width: 100%;
 }
 
 .code {
